@@ -11,4 +11,8 @@
 	public function sum($a,$b){
 		return ($a+$b);	
 	}
+	
+	public function div($a,$b){
+		return ($a/$b);
+	}
 ?>

@@ -15,57 +15,32 @@
 	public function div($a,$b){
 		return ($a/$b);
 	}
+	
+	public function chiahet($a){
+		return ($a%3==0 && $a%5==0)?true:false;	
+	}
 
 	public function days($m){
 		switch($m){
-			case 1:{
-			return 31;
-			break;
+			case 1:
+			case 3:
+			case 5:
+			case 7:
+			case 8:
+			case 10:
+			case 12:{
+				return 31;
+				break;
 			}
 			case 2:{
-			return 28;
-			break;
+				return 28;
+				break;
 			}
-			case 3:{
-			return 31;
-			break;
+			default:{
+				return 30;
+				break;
 			}
-			case 4:{
-			return 30;
-			break;
-			}
-			case 5:{
-			return 31;
-			break;
-			}
-			case 6:{
-			return 30;
-			break;
-			}
-			case 7:{
-			return 31;
-			break;
-			}
-			case 8:{
-			return 31;
-			break;
-			}
-			case 9:{
-			return 30;
-			break;
-			}
-			case 10:{
-			return 31;
-			break;
-			}
-			case 11:{
-			return 30;
-			break;
-			}
-			case 12:{
-			return 31;
-			break;
-			}	
+				
 		}
 	}
 	

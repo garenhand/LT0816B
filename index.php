@@ -11,4 +11,11 @@ public function nn($y){
 	}
 }
 
+
+if(date('L', strtotime('2010-01-01'))){
+echo 'Năm nhuận';
+} else {
+echo 'Năm không nhuận';
+}
+
 ?>

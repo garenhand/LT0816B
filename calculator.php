@@ -43,4 +43,11 @@
 				
 		}
 	}
+	
+	public function kiemtra($h) {
+		if($h % 2 == 0) {
+			echo 'true';	
+		}else
+			echo 'false';	
+	}
 ?>

@@ -15,11 +15,10 @@
 	public function div($a,$b){
 		return ($a/$b);
 	}
-<<<<<<< HEAD
 	
 	public function chiahet($a){
 		return ($a%3==0 && $a%5==0)?true:false;	
-=======
+	}
 
 	public function days($m){
 		switch($m){
@@ -72,6 +71,5 @@
 			break;
 			}	
 		}
->>>>>>> 8ef7e796b3ffb8c6730d845c8afa94fe005c1421
 	}
 ?>
